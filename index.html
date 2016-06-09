@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+	  <meta charset="UTF-8">
+	  <title>Smash Faces</title>
+	  <link rel="stylesheet" href="css/main.css">
+	  <link rel="shortcut icon" href="favicon.png" />
+	  <link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap.css">
+
+	  <!-- Fuentes -->
+
+	  <link href='https://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
+	  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+	</head>
+	<body>
+	
+
+<section id='estilos' class="fondo">
+  <div class="container">
+       <div class="row">
+       	<div>
+       	 <div class="col-xs-12">
+       	 	<h1>Smash Faces</h1>
+       		<p>Bienvenida a <em>Smash Faces</em>. Tu misión es identificar a todas tus compañeras de clase.</p> 
+       		<hr>
+	       		
+			   <div class="row">
+			   <p>
+				<span>Intrucciones:</span> 
+				<br>
+				Ingresa su nombre y presiona el botón "comprobar" para verificar si es el correcto. 
+				<br>
+				Tienes 5 oportunidades antes de perder un punto y pasar a la siguiente. 
+	       		 </p>
+       	 </div>
+       		
+			       <div class="col-md-3 pull-right">
+			       	<h5>Elige tu sede:</h5>
+					
+						<div class="col-md-6">
+							<select name="selectorPais" class="form-control selecter selectpicker" type="text" placeholder="" id="pais">
+								<option value=""><a href="#"></a></option>
+								<option value="Chile"><a href="#">Chile</a></option>
+								<option value="Lima"><a href="#">Lima</a></option>
+								<option value="México"><a href="#">México</a></option>
+							</select>
+						</div>
+				   </div>       
+				</div>
+			</div>
+	    </div>
+	    
+		    <div class="row">
+			    <div id="contenedorJuego">
+			   	    <h4 class="text-center">Tienes <span id="spanPuntos">0</span> puntos</h4>
+			    	<center>
+					<img id="imagenPersona" src="">
+					</center>
+					<br>
+					<center>
+					<input type="text" id="inputNombre"></input>
+					<button class="btn btn-primary" type="button" id="btnRevisar">Comprobar</button>
+					</center>
+				</div>
+	    	</div>
+	  	</div>
+	  </div>
+	</div>
+ </section>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+ 	<script src="js/jquery/jquery.fittext.js"></script>
+	<script type="text/javascript">
+		$("#fittext1").fitText();
+		$("#fittext2").fitText(1.2);
+		$("#fittext3").fitText(1.1, { minFontSize: '50px', maxFontSize: '75px' });
+	</script>
+
+	    <script src=http://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

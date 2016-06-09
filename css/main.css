@@ -1,0 +1,40 @@
+#imagenPersona {
+  height: 35%;
+  width: 30%; }
+
+.fondo {
+  background-image: url("http://www.wallpaperup.com/uploads/wallpapers/2014/05/21/355219/big_thumb_990c0b400649eb17e098a008bbed89e9.jpg");
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  background-position: center top; }
+
+#estilos h1 {
+  font-family: "Amatic SC", cursive;
+  font-size: 5em;
+  font-weight: bolder; }
+#estilos p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2em; }
+  #estilos p span {
+    font-family: "Amatic SC", cursive;
+    font-size: 1.3em;
+    font-weight: bolder; }
+#estilos h5 {
+  font-family: "Amatic SC", cursive;
+  font-size: 2em;
+  font-weight: bolder; }
+#estilos h4 span {
+  font-family: "Amatic SC", cursive;
+  font-size: 2em;
+  font-weight: bolder; }
+
+section {
+  width: 100%;
+  margin: 0px auto; }
+
+/*Bootstrap modificatios */
+button {
+  background-color: #776877 !important;
+  border-color: #A06C3A !important; }
+
+/*# sourceMappingURL=main.css.map */
